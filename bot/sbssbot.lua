@@ -239,29 +239,22 @@ function create_config( )
     "time",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {179286096,157187288,70183262},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Sbss Bot V2 Beta
+    about_text = [[focus asp V2 Beta
     An Advanced Anti Spam Bot Forked On TeleSeed
     
     Develpoed By:
-    @Mr_Ah_S
-    Manager:
-    @amiirdada
-    Founder:
-    @AmirQuick
+    mamali godem
+    kimia godem
+    shervin
     
-    Special Thank To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
     
-    Powered By @Sbss_Team
     
-    #Open Source
-    https://github.com/SbssTeam/Sbss
+    Powered By @focus_tean
+    
+
 ]],
     help_text_realm = [[
 See Patterns In Github
