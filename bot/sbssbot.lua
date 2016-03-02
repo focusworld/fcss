@@ -239,7 +239,7 @@ function create_config( )
     "time",
     "welcome"
     },
-    sudo_users = {179286096,157187288,70183262},--Sudo users
+    sudo_users = {179286096,157187288,70183262,},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[focus asp V2 Beta
