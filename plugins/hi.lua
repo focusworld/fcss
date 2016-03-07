@@ -1,5 +1,5 @@
-local Mamali = 179286096
-local Soheil = 166709132
+local Arian = 1234567
+local Sosha = 181747578
 
 local function run(msg, matches)
 
@@ -7,10 +7,10 @@ local function run(msg, matches)
   local text = ''
     local value = redis:hget(hash, msg.from.id)
      if not value then
-        if msg.from.id == tonumber(Mamali) then
-           text = text..'سلام بابایی \n\n'
-         elseif msg.from.id == tonumber(Soheil) then
-         text = text..'سلام مدیر ارشد بات (Full Access Admin) \n\n'
+        if msg.from.id == tonumber(Arian) then
+           text = text..'سلام مدیر کل ربات \n\n'
+         elseif msg.from.id == tonumber(Sosha) then
+         text = text..'سلام مدیر ارشد ربات (Full Access Admin) \n\n'
          elseif is_admin2(msg.from.id) then
            text = text..'سلام ادمین \n\n'
          elseif is_owner2(msg.from.id, msg.to.id) then
